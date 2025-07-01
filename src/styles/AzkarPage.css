@@ -1,0 +1,85 @@
+.azkar-page {
+  min-height: 75vh;
+  background-color: #f5f0e6;
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  border-bottom: 2px solid #5c3d2e;
+}
+
+/* عنوان التبويب */
+.azkar-header {
+  background-color: #8b6f4e; /* بني غامق */
+  color: #f5f0e6; /* بيج فاتح */
+  width: 68%;
+  padding: 20px -1px;
+  text-align: center;
+  font-size: 10px;
+  font-weight: bold;
+  margin: 30px ;
+  border-radius: 10px;
+}
+
+/* الصندوق البني المحيط بالكارد */
+.azkar-content {
+  background-color: #8b6f4e;
+  padding: 40px 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  max-width: 800px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+/* كارد الذكر */
+.azkar-card {
+  background-color: #f1e8da; /* بيج داخلي ناعم */
+  border: 2px solid #a38261; /* بني ناعم للحدود */
+  border-radius: 12px;
+  padding: 30px 20px;
+  text-align: center;
+  color: #1a1a1a;
+  max-width: 600px;
+  width: 100%;
+}
+
+/* نص الذكر */
+.azkar-card .text {
+  font-size: 18px;
+  line-height: 1.8;
+  margin-bottom: 20px;
+}
+
+/* الأسهم */
+.azkar-navigation {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  width: 100%;
+  max-width: 800px;
+  margin-top: 40px;
+}
+
+.arrow-button {
+  background-color: #e2d4c3;
+  border: none;
+  color: #5c3d2e;
+  font-size: 28px;
+  cursor: pointer;
+  padding: 10px 16px;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+.arrow-button:hover {
+  background-color: #d0bca5;
+}
+
+.arrow-button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}

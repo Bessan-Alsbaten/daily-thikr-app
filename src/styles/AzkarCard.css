@@ -1,0 +1,67 @@
+.azkar-card {
+  background-color: #d0bca5; /* خلفية بيج ناعمة */
+  color: #1a1a1a; /* النص أسود */
+  border: 2px solid #8b6f4e; /* بني ناعم */
+  border-radius: 12px;
+  padding: 30px 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  text-align: center;
+  width: 100%;
+  max-width: 700px;
+  transition: transform 0.3s ease;
+}
+
+.azkar-card.clicked {
+  transform: scale(0.98);
+}
+
+.azkar-card .text {
+  font-size: 18px;
+  line-height: 1.8;
+  margin-bottom: 20px;
+}
+
+.controls {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+
+/* زر العداد */
+.controls button {
+  background-color: #5c3d2e; /* بني غامق */
+  color: #f5f0e6; /* بيج فاتح */
+  border: none;
+  padding: 10px 18px;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* زر العداد عند الانتهاء */
+.controls button:disabled {
+  background-color: #a6907a;
+  cursor: not-allowed;
+}
+
+/* زر الإعادة */
+.reset-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 14px;
+  background-color: #5c3d2e;
+  color: #f5f0e6;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+.reset-button:hover {
+  background-color: #704f35;
+}
+
+.reset-button svg {
+  width: 20px;
+  height: 20px;
+}

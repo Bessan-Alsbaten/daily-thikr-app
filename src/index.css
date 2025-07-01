@@ -1,0 +1,40 @@
+/* index.css */
+body {
+  font-family: 'Arial', sans-serif;
+  background: #f2f6f9;
+  margin: 0;
+  padding: 20px;
+  color: #333;
+  background-color: #fdfaf5; /* خلفية بيج ناعمة للصفحة كلها */
+  margin: 0;
+  font-family: 'Cairo', sans-serif;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+}
+
+.azkar-card {
+  background: #e2d4c3;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.07);
+  margin-bottom: 20px;
+  padding: 20px;
+  transition: background 0.3s;
+}
+
+.azkar-card.clicked {
+  background: #e2d4c3;
+}
+
+.counter {
+ color: white;
+  border: none;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
